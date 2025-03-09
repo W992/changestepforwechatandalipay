@@ -23,7 +23,7 @@
    <table>
     <tr>
      <td colspan="1">环境变量</td>
-     <td colspan="1">随机步数修改</td>
+     <td colspan="1">数值</td>
     </tr>
     <tr>
      <td>zepp_user</td>
