@@ -14,32 +14,38 @@ password = os.environ.get('zeppp_assword', '')
 atime1=(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 at22=int(atime1[11:13]+atime1[14:16])
 if at22 < 2400:
-    if at22 > int(2355):
-        step=str(randint(25798, 46723))
+    if at22 > int(2350):
+        step=str(randint(25798, 36723))
     elif at22 > int(2326):
         step = str(randint(15339,19779))
-    elif at22 > int(2249):
-        step = str(randint(11307,13789))  
+    elif at22 > int(2240):
+        step = str(randint(9307,12789))  
     elif at22 > int(2206):
-        step = int(randint(4980,6524)) 
-    elif at22 > int(1913):
-        step = int(randint(3397,4597)) 
-    elif at22 > int(1225):
-        step = int(randint(2128,2533)) 
+        step = int(randint(7680,9024)) 
+    elif at22 > int(1920):
+        step = int(randint(6145,8024)) 
+    elif at22 > int(1510):
+        step = int(randint(4097,6597)) 
+    elif at22 > int(1205):
+        step = int(randint(2528,4833)) 
+    elif at22 > int(1010):
+        step = int(randint(1528,3133)) 
     elif at22 > int(801):
-        step = int(randint(1307,1789)) 
+        step = int(randint(507,1289)) 
     else:
-        step = int(randint(507,789))
+        step = int(randint(307,589))
 else:
-    step = int(randint(507,789))
+    step = int(randint(107,300))
 as12 = randint(1,100)
+
+#添加随机步数，避免一直步数在某个小区间，可删除
 if as12 > int(96):
     step += int(randint(4000,7500))
 elif as12 > int(92):
     step += int(randint(1500,2500))
 elif as12 > int(80):
     step += int(randint(1,1500))
-# step = str(36464)
+
 step=str(step)
 
 
