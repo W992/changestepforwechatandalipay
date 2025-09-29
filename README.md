@@ -54,7 +54,7 @@
   
 ## 更新日志
   - **`v0.1`** 2025.2.8：上传做备份
-
+  - **`v1.0`** 2025.9.30：更新新方式使用
 ## 声明
 - 本项目仅供编程学习/测试使用
 - 根据 [Caryio/ChangeWechatSport](https://github.com/Caryio/ChangeWechatSport/tree/main) 修改
