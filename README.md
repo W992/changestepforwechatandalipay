@@ -30,39 +30,10 @@
      <td>zeppp_assword</td>
     </tr>
     <tr>
-     <td>18899996666</td>
-     <td>密码</td>
+     <td>账号1#账号2#...</td>
+     <td>密码1#密码2#...</td>
     </tr>
    </table>
-   
-   （`zepp_user`是注册Zepp Life app的手机号，`zeppp_assword`是账号密码。
-   每次运行的步数已随机且根据时间判断刷步大小，如需修改自行改如下代码
-```
-if at22 < 2400:
-    if at22 > int(2350):
-        step=str(randint(25798, 36723))
-    elif at22 > int(2326):
-        step = str(randint(15339,19779))
-    elif at22 > int(2240):
-        step = str(randint(9307,12789))  
-    elif at22 > int(2206):
-        step = int(randint(7680,9024)) 
-    elif at22 > int(1920):
-        step = int(randint(6145,8024)) 
-    elif at22 > int(1510):
-        step = int(randint(4097,6597)) 
-    elif at22 > int(1205):
-        step = int(randint(2528,4833)) 
-    elif at22 > int(1010):
-        step = int(randint(1528,3133)) 
-    elif at22 > int(801):
-        step = int(randint(507,1289)) 
-    else:
-        step = int(randint(307,589))
-else:
-    step = int(randint(107,300))
-```
-   
 
 <p align="right">（<a href="#修改微信运动步数">回到顶部</a>）</p>
   
