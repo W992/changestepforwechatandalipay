@@ -1,7 +1,7 @@
 # 修改运动步数 (微信，支付宝)
 通过青龙面板 使用 **Zepp Life** app（*原**小米运动**app*）修改微信步数和支付宝步数，Github Action 可设置每日定时执行。
 > 2025.3.8测试成功:ghost:
-
+> 2025.9.30测试成功:
 [![修改微信步数](https://github.com/Caryio/ZeppLifeChangeWechatSport/actions/workflows/RunFunction.yml/badge.svg?branch=main)](https://github.com/Caryio/ZeppLifeChangeWechatSport/actions/workflows/RunFunction.yml)
 ## 目录
 * [准备工作](#准备工作)
