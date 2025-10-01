@@ -10,13 +10,13 @@ from Crypto.Cipher import AES
 
 sleep_seconds = 5
 
-账号获取方式1
-user = os.environ.get('zepp_user', '')
+# 账号获取方式1
+users = os.environ.get('zepp_user', '')
 #格式 账号1#账号2#...
-password = os.environ.get('zeppp_assword', '')
+passwords = os.environ.get('zeppp_assword', '')
 #格式 密码1#密码2#...
 
-账号获取方式2
+# 账号获取方式2
 # users = 'user1@qq.com#user2@qq.com#user3@qq.com#...'
 # passwords = 'password1#password2#password3#...'
 
