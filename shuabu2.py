@@ -2,7 +2,7 @@
 #change BY W992
 #感谢大佬提供的新方式
 #https://github.com/hanximeng/Zepp_API/blob/main/index.php
-import math, re, os, json, random, time, traceback ,urllib
+import math, re, os, json, random, time, traceback, urllib, uuid
 from datetime import datetime
 import pytz
 import requests
@@ -30,7 +30,7 @@ UserAgent_List = [
     "Dalvik/2.1.0 (Linux; U; Android 9; MI 6 MIUI/20.6.18)",
     "Dalvik/2.1.0 (Linux; U; Android 11; M2102J2SC Build/RKQ1.200826.002)",
 ]
-
+device_id = str(uuid.uuid4())
 
 # 获取北京时间
 def get_beijing_time():
@@ -248,7 +248,7 @@ class MiMotionRunner:
             "app_version": "6.3.5" if not self.is_phone else "4.6.0",
             "code": code,
             "country_code": "CN",
-            "device_id": "2C8B4939-0CCD-4E94-8CBA-CB8EA6E613A1",
+            "device_id": device_id,
             "device_model": "phone",
             "grant_type": "access_token",
             "third_name": "huami_phone" if self.is_phone else "email",
@@ -321,7 +321,7 @@ class MiMotionRunner:
             "app_version": "6.3.5" if not self.is_phone else "4.6.0",
             "code": code,
             "country_code": "CN",
-            "device_id": "2C8B4939-0CCD-4E94-8CBA-CB8EA6E613A1",
+            "device_id": device_id,
             "device_model": "phone",
             "grant_type": "access_token",
             "third_name": "huami_phone" if self.is_phone else "email",
